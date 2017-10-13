@@ -3,6 +3,7 @@
 }
 
 #title {
+	margin-top: 88px;
 	color: #000000;
 	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 	font-size: 80px;
@@ -10,7 +11,7 @@
 
 #footer {
 	position: fixed;
-	bottom: 10px;
+	bottom: 44px;
 	width: 100%;
 }
 
