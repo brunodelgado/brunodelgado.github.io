@@ -1,0 +1,25 @@
+#body {
+	background-color: #F9F9F9;
+}
+
+#title {
+	color: #000000;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: 80px;
+}
+
+#footer {
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+}
+
+#twitter_icon {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#twitter_icon:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+}
