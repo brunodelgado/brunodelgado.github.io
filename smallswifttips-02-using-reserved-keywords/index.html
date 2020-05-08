@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Post #02</title>
+    <title>Small Swift Tips #02: Using reserved keywords</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -18,21 +18,23 @@
     
     <meta property="og:site_name" content="Bruno Delgado" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Post #02" />
-    <meta property="og:description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries," />
-    <meta property="og:url" content="https://brunodelgado.github.iopost-02/" />
-    <meta property="article:published_time" content="2020-05-06T03:32:06.000Z" />
-    <meta property="article:modified_time" content="2020-05-06T21:14:27.000Z" />
+    <meta property="og:title" content="Small Swift Tips #02: Using reserved keywords" />
+    <meta property="og:description" content="The SmallSwiftTips on this post will show you how you can use some system reserved keywords on your code, if you ever need. A very common example can be founded when declaring enum values. Let&#x27;s imagine we have an enum and we want to have a case named &quot;default&quot;. This" />
+    <meta property="og:url" content="https://brunodelgado.github.iosmallswifttips-02-using-reserved-keywords/" />
+    <meta property="article:published_time" content="2020-05-08T03:18:47.000Z" />
+    <meta property="article:modified_time" content="2020-05-08T03:18:47.000Z" />
+    <meta property="article:tag" content="Small Swift Tips" />
     <meta property="article:tag" content="iOS" />
+    <meta property="article:tag" content="Swift" />
     
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Post #02" />
-    <meta name="twitter:description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries," />
-    <meta name="twitter:url" content="https://brunodelgado.github.iopost-02/" />
+    <meta name="twitter:title" content="Small Swift Tips #02: Using reserved keywords" />
+    <meta name="twitter:description" content="The SmallSwiftTips on this post will show you how you can use some system reserved keywords on your code, if you ever need. A very common example can be founded when declaring enum values. Let&#x27;s imagine we have an enum and we want to have a case named &quot;default&quot;. This" />
+    <meta name="twitter:url" content="https://brunodelgado.github.iosmallswifttips-02-using-reserved-keywords/" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Bruno Delgado" />
     <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="iOS" />
+    <meta name="twitter:data2" content="Small Swift Tips, iOS, Swift" />
     <meta name="twitter:site" content="@_brunodelgado" />
     
     <script type="application/ld+json">
@@ -62,12 +64,12 @@
         "url": "https://brunodelgado.github.ioauthor/bruno/",
         "sameAs": []
     },
-    "headline": "Post #02",
-    "url": "https://brunodelgado.github.iopost-02/",
-    "datePublished": "2020-05-06T03:32:06.000Z",
-    "dateModified": "2020-05-06T21:14:27.000Z",
-    "keywords": "iOS",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem\nIpsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an\nunknown printer took a galley of type and scrambled it to make a type specimen\nbook. It has survived not only five centuries, but also the leap into electronic\ntypesetting, remaining essentially unchanged. It was popularised in the 1960s\nwith the release of Letraset sheets containing Lorem Ipsum passages, and more\nrecently with desktop p",
+    "headline": "Small Swift Tips #02: Using reserved keywords",
+    "url": "https://brunodelgado.github.iosmallswifttips-02-using-reserved-keywords/",
+    "datePublished": "2020-05-08T03:18:47.000Z",
+    "dateModified": "2020-05-08T03:18:47.000Z",
+    "keywords": "Small Swift Tips, iOS, Swift",
+    "description": "The SmallSwiftTips on this post will show you how you can use some system\nreserved keywords on your code, if you ever need.\n\nA very common example can be founded when declaring enum values. Let&#x27;s imagine\nwe have an enum and we want to have a case named &quot;default&quot;. This is a reserved\nkeyword so if you just try to use it, you&#x27;’l notice you can&#x27;t.\n\n\nUsing the name between &#x60;&#x60; you&#x27;ll be able to use the reserved keyword.\n\nenum LayoutMode {\n    case &#x60;default&#x60;\n    case expanded\n    case detailed\n}\n\nThere",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://brunodelgado.github.io"
@@ -78,13 +80,19 @@
     <script defer src="../public/members.js%3Fv=225fadb3b2"></script>
     <meta name="generator" content="Ghost 3.14" />
     <link rel="alternate" type="application/rss+xml" title="Bruno Delgado" href="../rss/index.html" />
-    <style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/themes/prism-tomorrow.min.css" />
+<style>
+    pre[class*=language-] {
+        margin: 1.75em 0;
+        font-size: 1.4rem;
+    }
+</style>
+<style>
  	.site-home-header .site-header-background {
     	margin-top: 0;
     	min-height: 64px;
     	max-height: 64px;
 	}
-    
     .subscribe-button {
     	border: #000 1px solid;
 	    color: #000;
@@ -92,7 +100,7 @@
 </style>
 
 </head>
-<body class="post-template tag-ios">
+<body class="post-template tag-small-swift-tips tag-ios tag-swift">
 
     <div class="site-wrapper">
 
@@ -106,13 +114,7 @@
         <div class="site-nav-left">
                 <a class="site-nav-logo" href="../index.html">Bruno Delgado</a>
             <div class="site-nav-content">
-                    <ul class="nav" role="menu">
-    <li class="nav-nav-1" role="menuitem"><a href="../index.html">NAV 1</a></li>
-    <li class="nav-nav-2" role="menuitem"><a href="../index.html">NAV 2</a></li>
-    <li class="nav-nav-3" role="menuitem"><a href="../index.html">NAV 3</a></li>
-</ul>
-
-                    <span class="nav-post-title dash">Post #02</span>
+                    <span class="nav-post-title dash">Small Swift Tips #02: Using reserved keywords</span>
             </div>
         </div>
     </div>
@@ -132,15 +134,15 @@
 <main id="site-main" class="site-main outer">
     <div class="inner">
 
-        <article class="post-full post tag-ios no-image no-image">
+        <article class="post-full post tag-small-swift-tips tag-ios tag-swift no-image no-image">
 
             <header class="post-full-header">
 
                 <section class="post-full-tags">
-                    <a href="../tag/ios/index.html">iOS</a>
+                    <a href="../tag/small-swift-tips/index.html">Small Swift Tips</a>
                 </section>
 
-                <h1 class="post-full-title">Post #02</h1>
+                <h1 class="post-full-title">Small Swift Tips #02: Using reserved keywords</h1>
 
 
                 <div class="post-full-byline">
@@ -168,7 +170,7 @@
                         <section class="post-full-byline-meta">
                             <h4 class="author-name"><a href="../author/bruno/index.html">Bruno Delgado</a></h4>
                             <div class="byline-meta-content">
-                                <time class="byline-meta-date" datetime="2020-05-06">6 May 2020</time>
+                                <time class="byline-meta-date" datetime="2020-05-08">8 May 2020</time>
                                 <span class="byline-reading-time"><span class="bull">&bull;</span> 1 min read</span>
                             </div>
                         </section>
@@ -182,7 +184,11 @@
 
             <section class="post-full-content">
                 <div class="post-content">
-                    <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>The SmallSwiftTips on this post will show you how you can use some system reserved keywords on your code, if you ever need.</p><p>A very common example can be founded when declaring enum values. Let's imagine we have an enum and we want to have a case named "default". This is a reserved keyword so if you just try to use it, you'’l notice you can't.</p><figure class="kg-card kg-image-card"><img src="../content/images/2020/05/Screen-Shot-2020-05-08-at-00.13.06.png" class="kg-image"></figure><p><br>Using the name between `` you'll be able to use the reserved keyword.</p><pre><code class="language-swift">enum LayoutMode {
+    case `default`
+    case expanded
+    case detailed
+}</code></pre><p>There are a few reserved keywords that you might want to use on your code like associativity, convenience, dynamic, final, lazy, left, mutating, none, optional, override, postfix, precedence, prefix, required, right, weak.</p><p>With this tip you can use them without problems and keep the consistency on your code when naming variables, enums and so on. 😁🚀</p><hr>
                 </div>
             </section>
 
@@ -226,51 +232,47 @@ C22.32,8.481,24.301,9.057,26.013,10.047z">
         <div class="read-next-feed">
                 <article class="read-next-card">
                     <header class="read-next-card-header">
-                        <h3><span>More in</span> <a href="../tag/ios/index.html">iOS</a></h3>
+                        <h3><span>More in</span> <a href="../tag/small-swift-tips/index.html">Small Swift Tips</a></h3>
                     </header>
                     <div class="read-next-card-content">
                         <ul>
                             <li>
-                                <h4><a href="../post-04/index.html">Post #04</a></h4>
+                                <h4><a href="../small-swift-tips-01/index.html">Small Swift Tips #01: Grouping elements using group:by:</a></h4>
                                 <div class="read-next-card-meta">
-                                    <p><time datetime="2020-05-06">6 May 2020</time> –
+                                    <p><time datetime="2020-05-08">8 May 2020</time> –
+                                        1 min read</p>
+                                </div>
+                            </li>
+                            <li>
+                                <h4><a href="../introducing-small-swift-tips/index.html">Introducing Small Swift Tips</a></h4>
+                                <div class="read-next-card-meta">
+                                    <p><time datetime="2020-05-08">8 May 2020</time> –
                                         1 min read</p>
                                 </div>
                             </li>
                         </ul>
                     </div>
                     <footer class="read-next-card-footer">
-                        <a href="../tag/ios/index.html">1 post
+                        <a href="../tag/small-swift-tips/index.html">See all 2 posts
                             →</a>
                     </footer>
                 </article>
 
-                <article class="post-card post tag-swift featured ">
 
-    <a class="post-card-image-link" href="../post-01/index.html">
-        <img class="post-card-image"
-            srcset="../content/images/size/w300/2020/05/clement-h-95YRwf6CNw8-unsplash.jpg 300w,
-                   ../content/images/size/w600/2020/05/clement-h-95YRwf6CNw8-unsplash.jpg 600w,
-                  ../content/images/size/w1000/2020/05/clement-h-95YRwf6CNw8-unsplash.jpg 1000w,
-                 ../content/images/size/w2000/2020/05/clement-h-95YRwf6CNw8-unsplash.jpg 2000w"
-            sizes="(max-width: 1000px) 400px, 700px"
-            loading="lazy"
-            src="../content/images/size/w600/2020/05/clement-h-95YRwf6CNw8-unsplash.jpg"
-            alt="Post #01"
-        />
-    </a>
+                <article class="post-card post tag-small-swift-tips tag-swift tag-ios no-image no-image">
+
 
     <div class="post-card-content">
 
-        <a class="post-card-content-link" href="../post-01/index.html">
+        <a class="post-card-content-link" href="../small-swift-tips-01/index.html">
 
             <header class="post-card-header">
-                    <div class="post-card-primary-tag">Swift</div>
-                <h2 class="post-card-title">Post #01</h2>
+                    <div class="post-card-primary-tag">Small Swift Tips</div>
+                <h2 class="post-card-title">Small Swift Tips #01: Grouping elements using group:by:</h2>
             </header>
 
             <section class="post-card-excerpt">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+                    <p>For the very first SmallSwiftTips I will start with a very handy new Dictionary init that is init(grouping:by:) This new init was introduced on Swift 4 and it helps creating a new grouped Dictionary. It takes a Sequence and a closure as</p>
             </section>
 
         </a>
@@ -290,48 +292,7 @@ C22.32,8.481,24.301,9.057,26.013,10.047z">
             </ul>
             <div class="post-card-byline-content">
                 <span><a href="../author/bruno/index.html">Bruno Delgado</a></span>
-                <span class="post-card-byline-date"><time datetime="2020-05-06">6 May 2020</time> <span class="bull">&bull;</span> 1 min read</span>
-            </div>
-        </footer>
-
-    </div>
-
-</article>
-
-                <article class="post-card post tag-swift no-image no-image">
-
-
-    <div class="post-card-content">
-
-        <a class="post-card-content-link" href="../post-03/index.html">
-
-            <header class="post-card-header">
-                    <div class="post-card-primary-tag">Swift</div>
-                <h2 class="post-card-title">Post #03</h2>
-            </header>
-
-            <section class="post-card-excerpt">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It</p>
-            </section>
-
-        </a>
-
-        <footer class="post-card-meta">
-            <ul class="author-list">
-                <li class="author-list-item">
-            
-                    <div class="author-name-tooltip">
-                        Bruno Delgado
-                    </div>
-            
-                    <a href="../author/bruno/index.html" class="static-avatar">
-                        <img class="author-profile-image" src="http://www.gravatar.com/avatar/f477f58f1886cfe1c6e7765fce47d0b7?s=250&amp;d=mm&amp;r=x" alt="Bruno Delgado" />
-                    </a>
-                </li>
-            </ul>
-            <div class="post-card-byline-content">
-                <span><a href="../author/bruno/index.html">Bruno Delgado</a></span>
-                <span class="post-card-byline-date"><time datetime="2020-05-06">6 May 2020</time> <span class="bull">&bull;</span> 1 min read</span>
+                <span class="post-card-byline-date"><time datetime="2020-05-08">8 May 2020</time> <span class="bull">&bull;</span> 1 min read</span>
             </div>
         </footer>
 
@@ -476,7 +437,8 @@ C22.32,8.481,24.301,9.057,26.013,10.047z">
 </script>
 
 
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/components/prism-swift.min.js"></script>
 
 </body>
 </html>

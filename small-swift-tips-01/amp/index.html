@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Post #04</title>
+    <title>Small Swift Tips #01: Grouping elements using group:by:</title>
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -14,21 +14,23 @@
     
     <meta property="og:site_name" content="Bruno Delgado" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Post #04" />
-    <meta property="og:description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries," />
-    <meta property="og:url" content="https://brunodelgado.github.iopost-04/" />
-    <meta property="article:published_time" content="2020-05-06T03:31:37.000Z" />
-    <meta property="article:modified_time" content="2020-05-06T20:43:38.000Z" />
+    <meta property="og:title" content="Small Swift Tips #01: Grouping elements using group:by:" />
+    <meta property="og:description" content="For the very first SmallSwiftTips I will start with a very handy new Dictionary init that is init(grouping:by:) This new init was introduced on Swift 4 and it helps creating a new grouped Dictionary. It takes a Sequence and a closure as input. let frameworks &#x3D; [&quot;UIKit&quot;, &quot;CoreMedia&quot;, &quot;Security&quot;" />
+    <meta property="og:url" content="https://brunodelgado.github.iosmall-swift-tips-01/" />
+    <meta property="article:published_time" content="2020-05-08T03:18:39.000Z" />
+    <meta property="article:modified_time" content="2020-05-08T03:21:07.000Z" />
+    <meta property="article:tag" content="Small Swift Tips" />
+    <meta property="article:tag" content="Swift" />
     <meta property="article:tag" content="iOS" />
     
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Post #04" />
-    <meta name="twitter:description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries," />
-    <meta name="twitter:url" content="https://brunodelgado.github.iopost-04/" />
+    <meta name="twitter:title" content="Small Swift Tips #01: Grouping elements using group:by:" />
+    <meta name="twitter:description" content="For the very first SmallSwiftTips I will start with a very handy new Dictionary init that is init(grouping:by:) This new init was introduced on Swift 4 and it helps creating a new grouped Dictionary. It takes a Sequence and a closure as input. let frameworks &#x3D; [&quot;UIKit&quot;, &quot;CoreMedia&quot;, &quot;Security&quot;" />
+    <meta name="twitter:url" content="https://brunodelgado.github.iosmall-swift-tips-01/" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Bruno Delgado" />
     <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="iOS" />
+    <meta name="twitter:data2" content="Small Swift Tips, Swift, iOS" />
     <meta name="twitter:site" content="@_brunodelgado" />
     
     <script type="application/ld+json">
@@ -58,12 +60,12 @@
         "url": "https://brunodelgado.github.ioauthor/bruno/",
         "sameAs": []
     },
-    "headline": "Post #04",
-    "url": "https://brunodelgado.github.iopost-04/",
-    "datePublished": "2020-05-06T03:31:37.000Z",
-    "dateModified": "2020-05-06T20:43:38.000Z",
-    "keywords": "iOS",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem\nIpsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an\nunknown printer took a galley of type and scrambled it to make a type specimen\nbook. It has survived not only five centuries, but also the leap into electronic\ntypesetting, remaining essentially unchanged. It was popularised in the 1960s\nwith the release of Letraset sheets containing Lorem Ipsum passages, and more\nrecently with desktop p",
+    "headline": "Small Swift Tips #01: Grouping elements using group:by:",
+    "url": "https://brunodelgado.github.iosmall-swift-tips-01/",
+    "datePublished": "2020-05-08T03:18:39.000Z",
+    "dateModified": "2020-05-08T03:21:07.000Z",
+    "keywords": "Small Swift Tips, Swift, iOS",
+    "description": "For the very first SmallSwiftTips I will start with a very handy new Dictionary\ninit that is init(grouping:by:)\n\nThis new init was introduced on Swift 4 and it helps creating a new grouped \nDictionary. It takes a Sequence and a closure as input.\n\nlet frameworks &#x3D; [&quot;UIKit&quot;, &quot;CoreMedia&quot;, &quot;Security&quot;, &quot;MapKit&quot;, &quot;StoreKit&quot;]\nlet frameworksFirstLetters &#x3D; Dictionary(grouping: frameworks, by: { $0.first! })\n//[&quot;U&quot;: [&quot;UIKit&quot;], &quot;M&quot;: [&quot;MapKit&quot;], &quot;C&quot;: [&quot;CoreMedia&quot;], &quot;S&quot;: [&quot;Security&quot;, &quot;StoreKit&quot;]]\n\nlet framew",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://brunodelgado.github.io"
@@ -95,15 +97,37 @@
         <article class="post">
 
             <header class="post-header">
-                <h1 class="post-title">Post #04</h1>
+                <h1 class="post-title">Small Swift Tips #01: Grouping elements using group:by:</h1>
                 <section class="post-meta">
                     <p class="author">by <a href="../../author/bruno/index.html">Bruno Delgado</a></p>
-                    <time class="post-date" datetime="2020-05-06">2020-05-06</time>
+                    <time class="post-date" datetime="2020-05-08">2020-05-08</time>
                 </section>
             </header>
             <section class="post-content">
 
-                <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>For the very first SmallSwiftTips I will start with a very handy new Dictionary init that is <code>init(grouping:by:)</code></p><p>This new init was introduced on Swift 4 and it helps creating a new grouped <code>Dictionary</code>. It takes a <code>Sequence</code> and a closure as input.</p><pre><code class="language-swift">let frameworks = ["UIKit", "CoreMedia", "Security", "MapKit", "StoreKit"]
+let frameworksFirstLetters = Dictionary(grouping: frameworks, by: { $0.first! })
+//["U": ["UIKit"], "M": ["MapKit"], "C": ["CoreMedia"], "S": ["Security", "StoreKit"]]
+
+let frameworksWithCoreOnName = Dictionary(grouping: frameworks, by: { $0.contains("Core") })
+//[false: ["UIKit", "Security", "MapKit", "StoreKit"], true: ["CoreMedia"]]</code></pre><p>Note that the key for this new <code>Dictionary</code> will be the result from the closure. In the first example, the closure's result is a <code>Character</code>, so we'll have a new <code>[Character: [String]]</code> Dictionary. On the second example we have a <code>Bool</code> value in the closure's result, giving us a new <code>[Bool: [String]]</code>.</p><p>You can use a sequence of custom objects as well.</p><pre><code class="language-swift">enum AssetType {
+    case image
+    case video
+}
+
+struct Asset {
+    let type: AssetType
+    let name: String
+}
+
+let assets = [
+    Asset(type: .image, name: "icon"),
+    Asset(type: .video, name: "apple-watch-intro-video"),
+    Asset(type: .image, name: "new-footer")
+]
+
+let group = Dictionary(grouping: assets, by: { $0.type })
+//[AssetType.image: [Asset, Asset], AssetType.video: [Asset]]</code></pre><p>This code will return a new <code>[AssetType: [Asset]]</code> which is really handy. This can be very helpful and I hope you liked and use it. 😁🚀</p><hr></hr>
 
             </section>
 

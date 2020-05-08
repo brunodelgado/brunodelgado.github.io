@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Post #03</title>
+    <title>Introducing Small Swift Tips</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -18,22 +18,28 @@
     
     <meta property="og:site_name" content="Bruno Delgado" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Post #03" />
-    <meta property="og:description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries," />
-    <meta property="og:url" content="https://brunodelgado.github.iopost-03/" />
-    <meta property="article:published_time" content="2020-05-06T03:31:51.000Z" />
-    <meta property="article:modified_time" content="2020-05-06T20:42:20.000Z" />
+    <meta property="og:title" content="Introducing Small Swift Tips" />
+    <meta property="og:description" content="One of my new year’s resolution for 2019 2020 was to create the habit of blogging. Ok, I’m a little late as we are nearly half year, but hey, it’s never too late. To start creating this habit I thought it’d be easier to start with" />
+    <meta property="og:url" content="https://brunodelgado.github.iointroducing-small-swift-tips/" />
+    <meta property="og:image" content="https://brunodelgado.github.iocontent/images/2020/05/alexander-sinn-KgLtFCgfC28-unsplash.jpg" />
+    <meta property="article:published_time" content="2020-05-08T03:18:31.000Z" />
+    <meta property="article:modified_time" content="2020-05-08T03:19:56.000Z" />
+    <meta property="article:tag" content="Small Swift Tips" />
     <meta property="article:tag" content="Swift" />
+    <meta property="article:tag" content="iOS" />
     
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Post #03" />
-    <meta name="twitter:description" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries," />
-    <meta name="twitter:url" content="https://brunodelgado.github.iopost-03/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Introducing Small Swift Tips" />
+    <meta name="twitter:description" content="One of my new year’s resolution for 2019 2020 was to create the habit of blogging. Ok, I’m a little late as we are nearly half year, but hey, it’s never too late. To start creating this habit I thought it’d be easier to start with" />
+    <meta name="twitter:url" content="https://brunodelgado.github.iointroducing-small-swift-tips/" />
+    <meta name="twitter:image" content="https://brunodelgado.github.iocontent/images/2020/05/alexander-sinn-KgLtFCgfC28-unsplash.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Bruno Delgado" />
     <meta name="twitter:label2" content="Filed under" />
-    <meta name="twitter:data2" content="Swift" />
+    <meta name="twitter:data2" content="Small Swift Tips, Swift, iOS" />
     <meta name="twitter:site" content="@_brunodelgado" />
+    <meta property="og:image:width" content="2000" />
+    <meta property="og:image:height" content="1336" />
     
     <script type="application/ld+json">
 {
@@ -62,12 +68,18 @@
         "url": "https://brunodelgado.github.ioauthor/bruno/",
         "sameAs": []
     },
-    "headline": "Post #03",
-    "url": "https://brunodelgado.github.iopost-03/",
-    "datePublished": "2020-05-06T03:31:51.000Z",
-    "dateModified": "2020-05-06T20:42:20.000Z",
-    "keywords": "Swift",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem\nIpsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an\nunknown printer took a galley of type and scrambled it to make a type specimen\nbook. It has survived not only five centuries, but also the leap into electronic\ntypesetting, remaining essentially unchanged. It was popularised in the 1960s\nwith the release of Letraset sheets containing Lorem Ipsum passages, and more\nrecently with desktop p",
+    "headline": "Introducing Small Swift Tips",
+    "url": "https://brunodelgado.github.iointroducing-small-swift-tips/",
+    "datePublished": "2020-05-08T03:18:31.000Z",
+    "dateModified": "2020-05-08T03:19:56.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://brunodelgado.github.iocontent/images/2020/05/alexander-sinn-KgLtFCgfC28-unsplash.jpg",
+        "width": 2000,
+        "height": 1336
+    },
+    "keywords": "Small Swift Tips, Swift, iOS",
+    "description": "One of my new year’s resolution for 2019 2020 was to create the habit of\nblogging. Ok, I’m a little late as we are nearly half year, but hey, it’s never\ntoo late.\n\nTo start creating this habit I thought it’d be easier to start with small posts\nand today I’m starting this idea with a series I called  which is pretty\nexplanatory, tiny swift tips to help new developers. 🚀\n\n\n--------------------------------------------------------------------------------",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://brunodelgado.github.io"
@@ -78,13 +90,19 @@
     <script defer src="../public/members.js%3Fv=225fadb3b2"></script>
     <meta name="generator" content="Ghost 3.14" />
     <link rel="alternate" type="application/rss+xml" title="Bruno Delgado" href="../rss/index.html" />
-    <style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/themes/prism-tomorrow.min.css" />
+<style>
+    pre[class*=language-] {
+        margin: 1.75em 0;
+        font-size: 1.4rem;
+    }
+</style>
+<style>
  	.site-home-header .site-header-background {
     	margin-top: 0;
     	min-height: 64px;
     	max-height: 64px;
 	}
-    
     .subscribe-button {
     	border: #000 1px solid;
 	    color: #000;
@@ -92,7 +110,7 @@
 </style>
 
 </head>
-<body class="post-template tag-swift">
+<body class="post-template tag-small-swift-tips tag-swift tag-ios">
 
     <div class="site-wrapper">
 
@@ -106,13 +124,7 @@
         <div class="site-nav-left">
                 <a class="site-nav-logo" href="../index.html">Bruno Delgado</a>
             <div class="site-nav-content">
-                    <ul class="nav" role="menu">
-    <li class="nav-nav-1" role="menuitem"><a href="../index.html">NAV 1</a></li>
-    <li class="nav-nav-2" role="menuitem"><a href="../index.html">NAV 2</a></li>
-    <li class="nav-nav-3" role="menuitem"><a href="../index.html">NAV 3</a></li>
-</ul>
-
-                    <span class="nav-post-title dash">Post #03</span>
+                    <span class="nav-post-title dash">Introducing Small Swift Tips</span>
             </div>
         </div>
     </div>
@@ -132,15 +144,15 @@
 <main id="site-main" class="site-main outer">
     <div class="inner">
 
-        <article class="post-full post tag-swift no-image no-image">
+        <article class="post-full post tag-small-swift-tips tag-swift tag-ios featured ">
 
             <header class="post-full-header">
 
                 <section class="post-full-tags">
-                    <a href="../tag/swift/index.html">Swift</a>
+                    <a href="../tag/small-swift-tips/index.html">Small Swift Tips</a>
                 </section>
 
-                <h1 class="post-full-title">Post #03</h1>
+                <h1 class="post-full-title">Introducing Small Swift Tips</h1>
 
 
                 <div class="post-full-byline">
@@ -168,7 +180,7 @@
                         <section class="post-full-byline-meta">
                             <h4 class="author-name"><a href="../author/bruno/index.html">Bruno Delgado</a></h4>
                             <div class="byline-meta-content">
-                                <time class="byline-meta-date" datetime="2020-05-06">6 May 2020</time>
+                                <time class="byline-meta-date" datetime="2020-05-08">8 May 2020</time>
                                 <span class="byline-reading-time"><span class="bull">&bull;</span> 1 min read</span>
                             </div>
                         </section>
@@ -179,10 +191,23 @@
                 </div>
             </header>
 
+            <figure class="post-full-image">
+                <img
+                    srcset="../content/images/size/w300/2020/05/alexander-sinn-KgLtFCgfC28-unsplash.jpg 300w,
+                           ../content/images/size/w600/2020/05/alexander-sinn-KgLtFCgfC28-unsplash.jpg 600w,
+                          ../content/images/size/w1000/2020/05/alexander-sinn-KgLtFCgfC28-unsplash.jpg 1000w,
+                         ../content/images/size/w2000/2020/05/alexander-sinn-KgLtFCgfC28-unsplash.jpg 2000w"
+                    sizes="(max-width: 800px) 400px,
+                        (max-width: 1170px) 1170px,
+                            2000px"
+                    src="../content/images/size/w2000/2020/05/alexander-sinn-KgLtFCgfC28-unsplash.jpg"
+                    alt="Introducing Small Swift Tips"
+                />
+            </figure>
 
             <section class="post-full-content">
                 <div class="post-content">
-                    <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>One of my new year’s resolution for <s>2019</s> 2020 was to create the habit of blogging. Ok, I’m a little late as we are nearly half year, but hey, it’s never too late.</p><p>To start creating this habit I thought it’d be easier to start with small posts and today I’m starting this idea with a series I called  which is pretty explanatory, tiny swift tips to help new developers. 🚀</p><hr>
                 </div>
             </section>
 
@@ -226,46 +251,46 @@ C22.32,8.481,24.301,9.057,26.013,10.047z">
         <div class="read-next-feed">
                 <article class="read-next-card">
                     <header class="read-next-card-header">
-                        <h3><span>More in</span> <a href="../tag/swift/index.html">Swift</a></h3>
+                        <h3><span>More in</span> <a href="../tag/small-swift-tips/index.html">Small Swift Tips</a></h3>
                     </header>
                     <div class="read-next-card-content">
                         <ul>
                             <li>
-                                <h4><a href="../post-05/index.html">Post #05</a></h4>
+                                <h4><a href="../smallswifttips-02-using-reserved-keywords/index.html">Small Swift Tips #02: Using reserved keywords</a></h4>
                                 <div class="read-next-card-meta">
-                                    <p><time datetime="2020-05-07">7 May 2020</time> –
+                                    <p><time datetime="2020-05-08">8 May 2020</time> –
                                         1 min read</p>
                                 </div>
                             </li>
                             <li>
-                                <h4><a href="../post-01/index.html">Post #01</a></h4>
+                                <h4><a href="../small-swift-tips-01/index.html">Small Swift Tips #01: Grouping elements using group:by:</a></h4>
                                 <div class="read-next-card-meta">
-                                    <p><time datetime="2020-05-06">6 May 2020</time> –
+                                    <p><time datetime="2020-05-08">8 May 2020</time> –
                                         1 min read</p>
                                 </div>
                             </li>
                         </ul>
                     </div>
                     <footer class="read-next-card-footer">
-                        <a href="../tag/swift/index.html">See all 2 posts
+                        <a href="../tag/small-swift-tips/index.html">See all 2 posts
                             →</a>
                     </footer>
                 </article>
 
-                <article class="post-card post tag-ios no-image no-image">
+                <article class="post-card post tag-small-swift-tips tag-swift tag-ios no-image no-image">
 
 
     <div class="post-card-content">
 
-        <a class="post-card-content-link" href="../post-02/index.html">
+        <a class="post-card-content-link" href="../small-swift-tips-01/index.html">
 
             <header class="post-card-header">
-                    <div class="post-card-primary-tag">iOS</div>
-                <h2 class="post-card-title">Post #02</h2>
+                    <div class="post-card-primary-tag">Small Swift Tips</div>
+                <h2 class="post-card-title">Small Swift Tips #01: Grouping elements using group:by:</h2>
             </header>
 
             <section class="post-card-excerpt">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It</p>
+                    <p>For the very first SmallSwiftTips I will start with a very handy new Dictionary init that is init(grouping:by:) This new init was introduced on Swift 4 and it helps creating a new grouped Dictionary. It takes a Sequence and a closure as</p>
             </section>
 
         </a>
@@ -285,7 +310,7 @@ C22.32,8.481,24.301,9.057,26.013,10.047z">
             </ul>
             <div class="post-card-byline-content">
                 <span><a href="../author/bruno/index.html">Bruno Delgado</a></span>
-                <span class="post-card-byline-date"><time datetime="2020-05-06">6 May 2020</time> <span class="bull">&bull;</span> 1 min read</span>
+                <span class="post-card-byline-date"><time datetime="2020-05-08">8 May 2020</time> <span class="bull">&bull;</span> 1 min read</span>
             </div>
         </footer>
 
@@ -293,46 +318,6 @@ C22.32,8.481,24.301,9.057,26.013,10.047z">
 
 </article>
 
-                <article class="post-card post tag-ios no-image no-image">
-
-
-    <div class="post-card-content">
-
-        <a class="post-card-content-link" href="../post-04/index.html">
-
-            <header class="post-card-header">
-                    <div class="post-card-primary-tag">iOS</div>
-                <h2 class="post-card-title">Post #04</h2>
-            </header>
-
-            <section class="post-card-excerpt">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It</p>
-            </section>
-
-        </a>
-
-        <footer class="post-card-meta">
-            <ul class="author-list">
-                <li class="author-list-item">
-            
-                    <div class="author-name-tooltip">
-                        Bruno Delgado
-                    </div>
-            
-                    <a href="../author/bruno/index.html" class="static-avatar">
-                        <img class="author-profile-image" src="http://www.gravatar.com/avatar/f477f58f1886cfe1c6e7765fce47d0b7?s=250&amp;d=mm&amp;r=x" alt="Bruno Delgado" />
-                    </a>
-                </li>
-            </ul>
-            <div class="post-card-byline-content">
-                <span><a href="../author/bruno/index.html">Bruno Delgado</a></span>
-                <span class="post-card-byline-date"><time datetime="2020-05-06">6 May 2020</time> <span class="bull">&bull;</span> 1 min read</span>
-            </div>
-        </footer>
-
-    </div>
-
-</article>
         </div>
     </div>
 </aside>
@@ -471,7 +456,8 @@ C22.32,8.481,24.301,9.057,26.013,10.047z">
 </script>
 
 
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/components/prism-swift.min.js"></script>
 
 </body>
 </html>
