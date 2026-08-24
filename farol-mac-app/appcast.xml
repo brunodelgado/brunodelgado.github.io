@@ -5,8 +5,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Farol</title>
         <item>
             <title>1.0.1</title>
-            <pubDate>Mon, 24 Aug 2026 14:20:36 -0300</pubDate>
-            <link>https://github.com/brunodelgado/farol-mac-app</link>
+            <pubDate>Mon, 24 Aug 2026 15:34:45 -0300</pubDate>
+            <link>https://brunodelgado.github.io/</link>
             <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -18,6 +18,6 @@ Farol can now check for updates from both its menu and General settings. Updates
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: /PM5LDs22PwC/HKg5sBVFYhklQ7+7u0AvnGRBa7hsXZjui2FjIaVP1geXESAF39KO+UQm7Sla9Q8KkTNQjynDQ==
-length: 1391
+edSignature: O6JytvpD1dxfvbURerw1kkpTyem5DtiS1NeSU/QW7bfQSDifvUpcUhckLNZ1gs+yK+HSgSgKduNGuXrEb2S2BQ==
+length: 1377
 -->
