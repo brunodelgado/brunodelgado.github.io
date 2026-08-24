@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Farol</title>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Mon, 24 Aug 2026 14:20:36 -0300</pubDate>
+            <link>https://github.com/brunodelgado/farol-mac-app</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Farol 1.0.1
+
+Farol can now check for updates from both its menu and General settings. Updates are notarized by Apple and protected by Sparkle's Ed25519 archive and feed signatures.
+]]></description>
+            <enclosure url="https://github.com/brunodelgado/brunodelgado.github.io/releases/download/farol-v1.0.1/Farol-1.0.1.zip" length="1605874" type="application/octet-stream" sparkle:edSignature="mR9NEN2bJ97ecgOda3KrdVI6j+hSyb1ISfoT7nnDUlcQedTlxy6Sd27rLiXLhgulHsGhC4RXKE4P3bofdONjCw=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: /PM5LDs22PwC/HKg5sBVFYhklQ7+7u0AvnGRBa7hsXZjui2FjIaVP1geXESAF39KO+UQm7Sla9Q8KkTNQjynDQ==
+length: 1391
+-->
