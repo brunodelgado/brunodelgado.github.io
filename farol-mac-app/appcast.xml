@@ -1,8 +1,28 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Farol</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Tue, 08 Sep 2026 18:57:34 -0300</pubDate>
+            <link>https://tryfarol.app/</link>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Farol 1.0.0
+
+Initial release!
+
+- Discover Git worktrees automatically across your projects
+- See changed files and unpushed commits at a glance
+- Open worktrees in your editor or terminal
+- Run setup scripts when a new worktree appears
+- Review changes and run cleanup scripts before removing a worktree]]></description>
+            <enclosure url="https://downloads.tryfarol.app/1.0.0/6/Farol-1.0.0.dmg" length="7087542" type="application/octet-stream" sparkle:edSignature="mTIWF5Xx36cYc1P0SzXrd271Lu+nVwoedlc3kNYabieE6+e9xlyEgkWrcdYf0fPTkQBl/QsxKONJtpYeU6rOBw=="/>
+        </item>
         <item>
             <title>1.0.0</title>
             <pubDate>Tue, 08 Sep 2026 16:15:18 -0300</pubDate>
@@ -16,10 +36,11 @@ Welcome to Farol’s initial release!
 
 Discover and manage Git worktrees across your projects, open them in your preferred editor or terminal, and check their Git status—all from your Mac’s menu bar.
 ]]></description>
-            <enclosure url="https://downloads.tryfarol.app/1.0.0/5/Farol-1.0.0.dmg" length="7094519" type="application/octet-stream" sparkle:edSignature="DI37SX8KjaSdnIEjbrr3+r1NAOD8CL/WtsarYEHeWucbwtDZrg5wEEIaqL3kil2uA4LW4aoxfD/w5AUZi3IUBQ=="></enclosure>
+            <enclosure url="https://downloads.tryfarol.app/1.0.0/5/Farol-1.0.0.dmg" length="7094519" type="application/octet-stream" sparkle:edSignature="DI37SX8KjaSdnIEjbrr3+r1NAOD8CL/WtsarYEHeWucbwtDZrg5wEEIaqL3kil2uA4LW4aoxfD/w5AUZi3IUBQ=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: BxAux3C7JpE9BzHlFtBh4GyZhdIRE4A95naPPGlgxpfZZuEjvsNG6bTscRQx3jFZGH377rEuzzmLKepjdxEGAQ==
-length: 1356
+</rss>
+<!-- sparkle-signatures:
+edSignature: 2COWOGWJW/pdExYPBlpphzlfjugNbBuhF9bwhmYk+LpwZBFxI0s61ssCG43nUTyRY2muIW19UZd142Ys1KulAQ==
+length: 2353
 -->
