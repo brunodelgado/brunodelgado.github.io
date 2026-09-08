@@ -1,8 +1,25 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Farol</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Tue, 08 Sep 2026 00:56:41 -0300</pubDate>
+            <link>https://brunodelgado.github.io/</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Farol 1.0.0
+
+Welcome to Farol’s initial release!
+
+Discover and manage Git worktrees across your projects, open them in your preferred editor or terminal, and check their Git status—all from your Mac’s menu bar.
+]]></description>
+            <enclosure url="https://github.com/brunodelgado/brunodelgado.github.io/releases/download/farol-v1.0.0-build.4/Farol-1.0.0.dmg" length="7104745" type="application/octet-stream" sparkle:edSignature="Si5J9oUKt14XUlfLNSWzJ17766nMQa9WN+yFgiLJmFHCaT9kG1oi+aKE+CpjuMH9vjac2DVuhMGj+vTYUa8MAQ=="/>
+        </item>
         <item>
             <title>1.0.1</title>
             <pubDate>Mon, 24 Aug 2026 15:34:45 -0300</pubDate>
@@ -14,10 +31,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 Farol can now check for updates from both its menu and General settings. Updates are notarized by Apple and protected by Sparkle's Ed25519 archive and feed signatures.
 ]]></description>
-            <enclosure url="https://github.com/brunodelgado/brunodelgado.github.io/releases/download/farol-v1.0.1/Farol-1.0.1.zip" length="1605874" type="application/octet-stream" sparkle:edSignature="mR9NEN2bJ97ecgOda3KrdVI6j+hSyb1ISfoT7nnDUlcQedTlxy6Sd27rLiXLhgulHsGhC4RXKE4P3bofdONjCw=="></enclosure>
+            <enclosure url="https://github.com/brunodelgado/brunodelgado.github.io/releases/download/farol-v1.0.1/Farol-1.0.1.zip" length="1605874" type="application/octet-stream" sparkle:edSignature="mR9NEN2bJ97ecgOda3KrdVI6j+hSyb1ISfoT7nnDUlcQedTlxy6Sd27rLiXLhgulHsGhC4RXKE4P3bofdONjCw=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: O6JytvpD1dxfvbURerw1kkpTyem5DtiS1NeSU/QW7bfQSDifvUpcUhckLNZ1gs+yK+HSgSgKduNGuXrEb2S2BQ==
-length: 1377
+</rss>
+<!-- sparkle-signatures:
+edSignature: wJ0pqU8T2fklzC4MGpj1CbIJLBfgI71YZSufg3V6cLCoZpP9VGgd+Dqq+kzdR6mjq8EV153/2ZcQZ7yX5dFyCQ==
+length: 2353
 -->
