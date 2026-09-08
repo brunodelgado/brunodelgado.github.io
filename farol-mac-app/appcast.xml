@@ -7,6 +7,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Farol</title>
         <item>
             <title>1.0.0</title>
+            <pubDate>Tue, 08 Sep 2026 15:34:15 -0300</pubDate>
+            <link>https://tryfarol.app/</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Farol 1.0.0
+
+This build refines Settings, including a simpler license deactivation action and a cleaner version label in the sidebar.
+
+Farol continues to help you discover and manage Git worktrees from your Mac’s menu bar.
+]]></description>
+            <enclosure url="https://downloads.tryfarol.app/1.0.0/5/Farol-1.0.0.dmg" length="7094519" type="application/octet-stream" sparkle:edSignature="DI37SX8KjaSdnIEjbrr3+r1NAOD8CL/WtsarYEHeWucbwtDZrg5wEEIaqL3kil2uA4LW4aoxfD/w5AUZi3IUBQ=="/>
+        </item>
+        <item>
+            <title>1.0.0</title>
             <pubDate>Tue, 08 Sep 2026 00:56:41 -0300</pubDate>
             <link>https://brunodelgado.github.io/</link>
             <sparkle:version>4</sparkle:version>
@@ -20,22 +35,9 @@ Discover and manage Git worktrees across your projects, open them in your prefer
 ]]></description>
             <enclosure url="https://github.com/brunodelgado/brunodelgado.github.io/releases/download/farol-v1.0.0-build.4/Farol-1.0.0.dmg" length="7104745" type="application/octet-stream" sparkle:edSignature="Si5J9oUKt14XUlfLNSWzJ17766nMQa9WN+yFgiLJmFHCaT9kG1oi+aKE+CpjuMH9vjac2DVuhMGj+vTYUa8MAQ=="/>
         </item>
-        <item>
-            <title>1.0.1</title>
-            <pubDate>Mon, 24 Aug 2026 15:34:45 -0300</pubDate>
-            <link>https://brunodelgado.github.io/</link>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Farol 1.0.1
-
-Farol can now check for updates from both its menu and General settings. Updates are notarized by Apple and protected by Sparkle's Ed25519 archive and feed signatures.
-]]></description>
-            <enclosure url="https://github.com/brunodelgado/brunodelgado.github.io/releases/download/farol-v1.0.1/Farol-1.0.1.zip" length="1605874" type="application/octet-stream" sparkle:edSignature="mR9NEN2bJ97ecgOda3KrdVI6j+hSyb1ISfoT7nnDUlcQedTlxy6Sd27rLiXLhgulHsGhC4RXKE4P3bofdONjCw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: wJ0pqU8T2fklzC4MGpj1CbIJLBfgI71YZSufg3V6cLCoZpP9VGgd+Dqq+kzdR6mjq8EV153/2ZcQZ7yX5dFyCQ==
-length: 2353
+edSignature: JkwmjKMmcs4FWSPPiwGphg1e5/5w25QHvCpHEqVny8s757D4jnq7rCGfgmJjyDoCSm8pH88fBDSlmZkZhye5BA==
+length: 2340
 -->
