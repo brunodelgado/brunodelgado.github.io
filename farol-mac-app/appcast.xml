@@ -1,30 +1,13 @@
-<?xml version="1.0" standalone="yes"?>
-<!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
--->
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Farol</title>
         <item>
             <title>1.0.0</title>
-            <pubDate>Tue, 08 Sep 2026 15:34:15 -0300</pubDate>
+            <pubDate>Tue, 08 Sep 2026 16:15:18 -0300</pubDate>
             <link>https://tryfarol.app/</link>
             <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Farol 1.0.0
-
-This build refines Settings, including a simpler license deactivation action and a cleaner version label in the sidebar.
-
-Farol continues to help you discover and manage Git worktrees from your Mac’s menu bar.
-]]></description>
-            <enclosure url="https://downloads.tryfarol.app/1.0.0/5/Farol-1.0.0.dmg" length="7094519" type="application/octet-stream" sparkle:edSignature="DI37SX8KjaSdnIEjbrr3+r1NAOD8CL/WtsarYEHeWucbwtDZrg5wEEIaqL3kil2uA4LW4aoxfD/w5AUZi3IUBQ=="/>
-        </item>
-        <item>
-            <title>1.0.0</title>
-            <pubDate>Tue, 08 Sep 2026 00:56:41 -0300</pubDate>
-            <link>https://brunodelgado.github.io/</link>
-            <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <description sparkle:format="markdown"><![CDATA[# Farol 1.0.0
@@ -33,11 +16,10 @@ Welcome to Farol’s initial release!
 
 Discover and manage Git worktrees across your projects, open them in your preferred editor or terminal, and check their Git status—all from your Mac’s menu bar.
 ]]></description>
-            <enclosure url="https://github.com/brunodelgado/brunodelgado.github.io/releases/download/farol-v1.0.0-build.4/Farol-1.0.0.dmg" length="7104745" type="application/octet-stream" sparkle:edSignature="Si5J9oUKt14XUlfLNSWzJ17766nMQa9WN+yFgiLJmFHCaT9kG1oi+aKE+CpjuMH9vjac2DVuhMGj+vTYUa8MAQ=="/>
+            <enclosure url="https://downloads.tryfarol.app/1.0.0/5/Farol-1.0.0.dmg" length="7094519" type="application/octet-stream" sparkle:edSignature="DI37SX8KjaSdnIEjbrr3+r1NAOD8CL/WtsarYEHeWucbwtDZrg5wEEIaqL3kil2uA4LW4aoxfD/w5AUZi3IUBQ=="></enclosure>
         </item>
     </channel>
-</rss>
-<!-- sparkle-signatures:
-edSignature: JkwmjKMmcs4FWSPPiwGphg1e5/5w25QHvCpHEqVny8s757D4jnq7rCGfgmJjyDoCSm8pH88fBDSlmZkZhye5BA==
-length: 2340
+</rss><!-- sparkle-signatures:
+edSignature: BxAux3C7JpE9BzHlFtBh4GyZhdIRE4A95naPPGlgxpfZZuEjvsNG6bTscRQx3jFZGH377rEuzzmLKepjdxEGAQ==
+length: 1356
 -->
