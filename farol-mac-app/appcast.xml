@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Farol</title>
         <item>
+            <title>1.1.0</title>
+            <pubDate>Fri, 25 Sep 2026 14:54:52 -0300</pubDate>
+            <link>https://tryfarol.app/</link>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Farol 1.1.0
+
+- Free plan for tracking one project at a time, with unlimited worktrees.
+- Farol license unlocks unlimited projects and automatic worktree setup and cleanup scripts.
+- Guided onboarding and contextual upgrade prompts.
+- New, redesigned native Settings window with clearer navigation and project-specific app selections.
+- Gentle reminders when a Farol update is available.
+- Localization in 🇪🇸 Spanish and 🇧🇷 Brazilian Portuguese.
+- More reliable worktree switching, removal, and setup automation.
+]]></description>
+            <enclosure url="https://downloads.tryfarol.app/1.1.0/7/Farol-1.1.0.dmg" length="7277713" type="application/octet-stream" sparkle:edSignature="2l2x7/r193kh+hBnWGSwUUYyvO6yU2VjPXGREAK0aQoiNsF4tGHZP/m4208IT2ojh9B7nSSPgknMSXNlrJi7Dg=="/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <pubDate>Tue, 08 Sep 2026 18:57:34 -0300</pubDate>
             <link>https://tryfarol.app/</link>
@@ -41,6 +60,6 @@ Discover and manage Git worktrees across your projects, open them in your prefer
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 2COWOGWJW/pdExYPBlpphzlfjugNbBuhF9bwhmYk+LpwZBFxI0s61ssCG43nUTyRY2muIW19UZd142Ys1KulAQ==
-length: 2353
+edSignature: T7QQ/OFrgqqr7O1u8b+I8q+7TSKJ0ZHufRq/sGFFM9g9MHslFLTaRaT/E4ynkrp33Bdvq6x6wARMnFmqtpOOAw==
+length: 3579
 -->
