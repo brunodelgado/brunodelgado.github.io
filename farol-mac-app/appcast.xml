@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Farol</title>
         <item>
+            <title>1.2.0</title>
+            <pubDate>Tue, 29 Sep 2026 14:51:54 -0300</pubDate>
+            <link>https://tryfarol.app/</link>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Farol 1.2.0
+
+- Clearer worktree removal confirmation, with branch, path, and change status shown before removal.
+- Better handling for worktree and branch names in the menu, including long names.
+- Improved discovery of installed Xcode editors.
+- Settings now opens without an initially focused control.
+]]></description>
+            <enclosure url="https://downloads.tryfarol.app/1.2.0/8/Farol-1.2.0.dmg" length="7320329" type="application/octet-stream" sparkle:edSignature="o40Vm8XS0usJxymkqWMxUqVLZPva+Ux/VZWlU2TgY2THR2Ix9ApkEDoSKOj1R0Hv3x+ozhch+hQ7r6l+Sa3aAA=="/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <pubDate>Fri, 25 Sep 2026 14:54:52 -0300</pubDate>
             <link>https://tryfarol.app/</link>
@@ -42,24 +58,9 @@ Initial release!
 - Review changes and run cleanup scripts before removing a worktree]]></description>
             <enclosure url="https://downloads.tryfarol.app/1.0.0/6/Farol-1.0.0.dmg" length="7087542" type="application/octet-stream" sparkle:edSignature="mTIWF5Xx36cYc1P0SzXrd271Lu+nVwoedlc3kNYabieE6+e9xlyEgkWrcdYf0fPTkQBl/QsxKONJtpYeU6rOBw=="/>
         </item>
-        <item>
-            <title>1.0.0</title>
-            <pubDate>Tue, 08 Sep 2026 16:15:18 -0300</pubDate>
-            <link>https://tryfarol.app/</link>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Farol 1.0.0
-
-Welcome to Farol’s initial release!
-
-Discover and manage Git worktrees across your projects, open them in your preferred editor or terminal, and check their Git status—all from your Mac’s menu bar.
-]]></description>
-            <enclosure url="https://downloads.tryfarol.app/1.0.0/5/Farol-1.0.0.dmg" length="7094519" type="application/octet-stream" sparkle:edSignature="DI37SX8KjaSdnIEjbrr3+r1NAOD8CL/WtsarYEHeWucbwtDZrg5wEEIaqL3kil2uA4LW4aoxfD/w5AUZi3IUBQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: T7QQ/OFrgqqr7O1u8b+I8q+7TSKJ0ZHufRq/sGFFM9g9MHslFLTaRaT/E4ynkrp33Bdvq6x6wARMnFmqtpOOAw==
-length: 3579
+edSignature: Woxp0Nyr8Mu7VdNwC7fxSY1XaM5SG6Ap8BJvNMrb87aNBcjLPM5wy43eXapy7N9fRHSJgVyTWp/K1bDJvFCeAQ==
+length: 3666
 -->
