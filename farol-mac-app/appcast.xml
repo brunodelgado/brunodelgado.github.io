@@ -6,6 +6,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Farol</title>
         <item>
+            <title>1.2.1</title>
+            <pubDate>Tue, 13 Oct 2026 20:42:08 -0300</pubDate>
+            <link>https://tryfarol.app/</link>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Farol 1.2.1
+
+- Refreshed Settings sidebar.
+- The menu bar popover now uses the standard window background for improved legibility.
+]]></description>
+            <enclosure url="https://downloads.tryfarol.app/1.2.1/9/Farol-1.2.1.dmg" length="7310402" type="application/octet-stream" sparkle:edSignature="bnCfpSwEBIlbiWo1thdLXuVoYjafUy1vTGmnBEM3mTo0ALXoc3zh99cegX+w3t9U7ixpbqHUIo8f3ykKt76CDA=="/>
+        </item>
+        <item>
             <title>1.2.0</title>
             <pubDate>Tue, 29 Sep 2026 14:51:54 -0300</pubDate>
             <link>https://tryfarol.app/</link>
@@ -40,27 +54,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://downloads.tryfarol.app/1.1.0/7/Farol-1.1.0.dmg" length="7277713" type="application/octet-stream" sparkle:edSignature="2l2x7/r193kh+hBnWGSwUUYyvO6yU2VjPXGREAK0aQoiNsF4tGHZP/m4208IT2ojh9B7nSSPgknMSXNlrJi7Dg=="/>
         </item>
-        <item>
-            <title>1.0.0</title>
-            <pubDate>Tue, 08 Sep 2026 18:57:34 -0300</pubDate>
-            <link>https://tryfarol.app/</link>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Farol 1.0.0
-
-Initial release!
-
-- Discover Git worktrees automatically across your projects
-- See changed files and unpushed commits at a glance
-- Open worktrees in your editor or terminal
-- Run setup scripts when a new worktree appears
-- Review changes and run cleanup scripts before removing a worktree]]></description>
-            <enclosure url="https://downloads.tryfarol.app/1.0.0/6/Farol-1.0.0.dmg" length="7087542" type="application/octet-stream" sparkle:edSignature="mTIWF5Xx36cYc1P0SzXrd271Lu+nVwoedlc3kNYabieE6+e9xlyEgkWrcdYf0fPTkQBl/QsxKONJtpYeU6rOBw=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Woxp0Nyr8Mu7VdNwC7fxSY1XaM5SG6Ap8BJvNMrb87aNBcjLPM5wy43eXapy7N9fRHSJgVyTWp/K1bDJvFCeAQ==
-length: 3666
+edSignature: 9aWjxQb5gLSm8NwGrqZP2MYA7IqoKeLrQDPwJqYDnvlQWXzcxkP3EzbVbOMxu8fH4u0AZlIwh7VARvXI50r8BQ==
+length: 3494
 -->
